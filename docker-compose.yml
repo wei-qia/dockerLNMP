@@ -10,6 +10,7 @@ services:
     # 环境变量
     environment:
       - TZ=Asia/Shanghai
+    privileged: true
     # 其中/d/dockerLNMP/nginx/nginx.conf文件需提前创建
     volumes:
       - "/d/dockerLNMP/nginx/log:/var/log/nginx"
@@ -25,9 +26,11 @@ services:
     restart: always
     ports:
       - "9000:9000"
+    privileged: true
     volumes:
       - "/d/dockerLNMP/html:/var/www/html"
       - "/d/dockerLNMP/php/logs:/var/log/php"
+      - "/d/dockerLNMP/php/etc:/usr/local/etc"
     networks:
       - my_net
   mysql:
@@ -60,3 +63,4 @@ networks:
     ipam:
       config:
         - subnet: 172.10.0.0/16
+          gateway: 172.10.0.1

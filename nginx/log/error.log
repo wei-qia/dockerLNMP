@@ -1,0 +1,10 @@
+2021/09/14 16:58:24 [emerg] 1#1: host not found in upstream "my-php" in /etc/nginx/nginx.conf:66
+2021/09/14 16:58:34 [emerg] 1#1: host not found in upstream "my-php" in /etc/nginx/nginx.conf:66
+2021/09/14 16:58:44 [emerg] 1#1: host not found in upstream "my-php" in /etc/nginx/nginx.conf:66
+2021/09/14 16:58:55 [emerg] 1#1: host not found in upstream "my-php" in /etc/nginx/nginx.conf:66
+2021/09/14 16:59:05 [emerg] 1#1: host not found in upstream "my-php" in /etc/nginx/nginx.conf:66
+2021/09/14 16:59:16 [emerg] 1#1: host not found in upstream "my-php" in /etc/nginx/nginx.conf:66
+2021/09/14 16:59:26 [emerg] 1#1: host not found in upstream "my-php" in /etc/nginx/nginx.conf:66
+2021/09/14 16:59:36 [emerg] 1#1: host not found in upstream "my-php" in /etc/nginx/nginx.conf:66
+2021/09/14 17:00:18 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.10.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/09/15 23:04:20 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.10.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
