@@ -26,6 +26,8 @@ services:
     restart: always
     ports:
       - "9000:9000"
+      #- "9501:9501"
+      #- "9502:9502"
     privileged: true
     volumes:
       - "/d/dockerLNMP/html:/var/www/html"

@@ -19,4 +19,5 @@ RUN apt-get update \
     && pecl install redis-5.1.1 \
     && pecl install imagick \
     && pecl install mcrypt \
-    && docker-php-ext-enable redis imagick mcrypt
+    && pecl install swoole \
+    && docker-php-ext-enable redis imagick mcrypt swoole
